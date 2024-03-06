@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="booked.html">
+    <div class="form">
+        <center>
+        <h2>TRAVEL BOOKING FORM</h2>
+    </center><hr>
+    <h3 style="padding-top:10px;">PASSENGER DETAILS</h3>
+    <label style="margin-left: 40px;">FULL NAME:
+        <input type="text" required>
+    </label><br>
+    <label for="date" style="margin-left: 30px;">DATE OF BIRTH:
+       <input type="date" id="dob" name="dob">
+    </label><br>
+    <label   for="gender" style="margin-left: 40px;">GENDER:</label> 
+    <select name="gender" id="gender" style="width: 370px;height:35px;"> 
+        <option value="MALE">gender</option> 
+        <option value="MALE">MALE</option> 
+        <option value="FEMALE">FEMALE</option> 
+    </select><br><br><hr>
+    <h3 style="padding-top:10px;">CONTACT DETAILS</h3>
+    <label style="margin-left: 40px;">EMAIL:
+        <input type="email" placeholder="Enter your mail">
+            </label><br>
+            <label style="margin-left: 30px;">PHONE NO:
+                <input style="text-align: left;"  type="number" placeholder="91+">
+                <br>
+                <label style="margin-left: 30px;">ALTERNATE NO:
+                    <input style="text-align: left;"  type="number" placeholder="91+"><br>
+                    <label style="margin-left: 30px;">ADDRESS:</label>
+         <input type="text" placeholder="Address"><br>
+         <label style="margin-left: 40px;">CITY:</label>
+         <input type="text" placeholder="city">
+         <br>
+         <label style="margin-left: 40px;">STATE:</label>
+         <select name="state" id="state" style="width: 205px;height:35px;">
+            <option value="state">state</option>
+            <option value="Andhra">Andhra Pradesh</option>
+            <option value="tele">Telangana</option>
+         </select><br><br>
+         <label style="margin-left: 40px;">COUNTRY:</label>
+         <select name="country" id="country" style="width: 205px;height:35px;">
+            <option value="state">country</option>
+            <option value="Andhra">INDIA</option>
+            <option value="tele">OTHERS</option>
+         </select><br><br>
+         <hr><br>
+         <h3>TRAVEL DETAILS</h3>
+         <label style="margin-left: 40px;">FROM:
+            <input type="text" required>
+         </label>
+         <br>
+         <label style="margin-left: 40px;">TO:
+            <input type="text" required>
+         </label>
+         <br>
+         <label style="margin-left: 40px;"> DATE OF TRAVEL:</label>
+         <input type="date" id="dob" name="dob"><br><br><hr><br>
+        <h3>OTHER DETAILS</h3>
+        <label style="margin-left: 40px;">TOTAL NO OF PEOPLE:
+            <input type="text" required>
+        </label><br>
+        <label style="margin-left: 40px;"> NO OF CHLIDREN :
+            <input type="text" required>
+        </label><br>
+        <label style="margin-left: 40px;"> NO OF ADULTS:
+            <input type="text" required>
+        </label><br>
+        <label style="margin-left: 40px;">TYPE OF TRIP:
+            <select name="country" id="country" style="width: 240px;height:35px;">
+                <option value="state">SELECT</option>
+                <option value="state">BUSINESS</option>
+                <option value="Andhra">HONEY MOON</option>
+                <option value="tele">FAMILY VACATION</option>
+                <option value="tele">OTHERS</option>
+             </select>
+        </label><br><br>
+        <label style="margin-left: 40px;">TRAVEL TYPE:
+            <select name="country" id="country" style="width: 240px;height:35px;">
+                <option value="state">SELECT</option>
+                <option value="state">BUS</option>
+                <option value="Andhra">TRAIN</option>
+                <option value="tele">RENTAL CAR</option>
+                <option value="tele">AEROPLANE</option>
+             </select>
+        </label><br><br><hr><br>
+        <h3>PAYMENT DETAILS</h3>
+        <label style="margin-left:40px;">CREDIT CARD NAME:
+            <input type="text" required>
+        </label><br>
+        <label style="margin-left:40px;">EXPIRY DATE:
+            <input type="text" value="MM/YY" required>
+        </label><br>
+        <label style="margin-left:40px;">UTR NO:
+            <input type="number" required>
+        </label><br>
+        <label style="margin-left: 40px;"> DATE OF PAID:</label>
+         <input type="date" id="dob" name="dob"><br><br>
+         <center>
+         <button>SUBMIT</button>
+        </center>
+        </form>
+    </div>
+</body>
+</html>

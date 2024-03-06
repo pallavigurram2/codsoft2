@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1268855.jpg&fm=jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed; 
+     background-size: cover; 
+    height:100%;
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: green;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background:rgb(240, 6, 33);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.1s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+span{
+    color:orangered;
+}
+.navbar h2{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.two
+{
+    padding-top: 15%;
+    color:azure;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+ .login{
+    background-repeat: no-repeat;  
+    justify-content: center;
+    align-content: center;
+    padding-top:14%;
+    padding-left: 35%;
+} 
+.imageo {
+  background-color: #F7D8BA; 
+  opacity:0.7;
+   width: 450px;
+ height: 500;
+    padding: 20px;  
+} 
+input{
+ border: none;
+ margin-bottom: 10px;
+ width: 300px;
+ height:50;
+ margin-top: 10px;
+ padding: 10px;
+ text-align: left;
+}
+.b1
+{
+ width: 300px;
+ height: 38px;
+ border-radius: 8px;
+ background-color: #3d067cbd;
+ color: white;
+ font: 70;
+ text-align: center;
+}
+button
+{
+ width: 300px;
+ height: 38px;
+ border-radius: 8px;
+ background-color: #3d067cbd;
+ color: white;
+ font: 70;
+}
+.forget{
+ margin: 10px;
+ text-align: right;
+ font-size: 14.5;
+ margin-right: 40px; 
+}  
+.signup{
+
+ text-align: center;
+ margin-top: 20px;
+ text-decoration: none;
+} 
+.signup-form{
+    background-color: #FFE9EE;
+    opacity: 0.9;
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 450px;
+}
+.form{
+    background-color: #FFE9EE;
+    opacity: 0.9;
+    width: 600px;
+    /* height: 600; */
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 450px;
+}
+h2{
+    padding-bottom: 10px;
+}
+.boo{
+    background-color:#eedd82;  
+    width: 930px;
+    width: 450px;
+    height: 500;
+    margin-top: 130px;
+    padding: 20px;
+    margin-left: 450px; 
+} 
